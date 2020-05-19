@@ -5,21 +5,33 @@
   * Outline Elements
 */
 
-* {
-    outline: 2px dashed red;
-}
-
 /* Doodle Stage */
 #stage {
-  background: tan;
+  background: #ccc;
   height: 300px;
   width: 600px;
+  
+  position: relative;
+  overflow: hidden;
 }
 
-#heart1 {
-  fill: red;
+h1 {
+  color: white;
+  position: absolute;
+  right: 165px;
+  top: 115px;
+  font-family: 'Raleway', sans-serif;
 }
 
-#heart2 {
-  fill: green;
+.guitar {
+  width: 800px;
+  height: 500px;
+  
+  position: absolute;
+  right: 200px;
+  bottom: -100px;
+}
+
+.notes {
+  opacity: 0;
 }

@@ -1,23 +1,13 @@
 console.log('OK');
 
-// gsap.from( 
-//   WHAT , 
-//   {HOW
+gsap.to('.guitar', {
+  duration: 6,
+  x: 400,
+  scale: 1,
+  delay: 2
+})
 
-//   });
-
-gsap.from('#heart1' , {
-    opacity: 0,
-    duration: 5,
-    y: 5
-  }
-);
-
-// gsap.from( '#heart1', {
- 
-//     x: -600,
-//     fill: 'orange',
-//     opacity: 0,
-//     duration: 3
-    
-//   });
+gsap.to('.notes', {
+  opacity: 1,
+  duration: 2
+})
